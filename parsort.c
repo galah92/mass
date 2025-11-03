@@ -75,7 +75,10 @@ uint64_t *read_input(const char *filename, size_t *count) {
   // Read data
   rewind(fp);
   for (size_t i = 0; i < n; i++) {
-    fscanf(fp, "%lu", &arr[i]);
+    if (fscanf(fp, "%lu", &arr[i]) != 1) {
+      fprintf(stderr, "Error reading input file\n");
+      exit(1);
+    }
   }
 
   fclose(fp);
