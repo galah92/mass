@@ -94,7 +94,7 @@ Developed a technical hypothesis explaining the failure:
 
 Created comprehensive documentation:
 
-- **`assignment1_report.md`** (14KB) - Detailed technical report with:
+- **`assignment1_report.md`** (8KB) - Technical report with:
   - Background on store/load forwarding
   - Implementation methodology
   - Experimental results and analysis
@@ -116,7 +116,7 @@ Submit **TWO files separately** (NOT in a ZIP):
    - Compiles: `gcc -O0 -std=gnu99 4k_aliasing_attack.c -o 4k_aliasing_attack`
 
 2. **`assignment1_report.pdf`** ⚠️ Needs Conversion
-   - Source: `assignment1_report.md` (14KB markdown)
+   - Source: `assignment1_report.md` (8KB markdown)
    - Convert using: https://www.markdowntopdf.com/ (or pandoc)
    - Must be 11pt font minimum
 
@@ -248,7 +248,7 @@ The memory disambiguation logic does not make forwarding decisions based solely 
 assignment1/
 ├── 4k_aliasing_attack.c        # Attack implementation (138 lines) ✅
 ├── 4k_aliasing_attack          # Compiled binary
-├── assignment1_report.md       # Technical report (14KB)
+├── assignment1_report.md       # Technical report (8KB)
 ├── assignment1_report.pdf      # PDF version (needs conversion) ⚠️
 ├── README.md                   # This file
 ├── spectre.c                   # Baseline Spectre test (provided)
